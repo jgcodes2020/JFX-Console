@@ -1,0 +1,6 @@
+@font-face {
+    src: url("CChars.ttf")
+}
+.console-delimiter {
+    font-family: "CChars"
+}

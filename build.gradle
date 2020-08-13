@@ -1,0 +1,23 @@
+plugins {
+    id 'java-library'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+}
+
+group 'io.github.jgcodes'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version '14.0.2.1'
+    modules("javafx.controls")
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+
+    implementation 'org.fxmisc.richtext:richtextfx:0.10.5'
+    implementation 'org.fxmisc.wellbehaved:wellbehavedfx:0.3.3'
+}
